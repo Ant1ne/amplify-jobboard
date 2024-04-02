@@ -1,5 +1,5 @@
 import { DataStore } from "@aws-amplify/datastore";
-import { ApplicantList } from "../../../Backend/Backend/models";
+import { ApplicantList } from "../../../amplify";
 
 export default async function apply(data, jobdetails) {
   try {
