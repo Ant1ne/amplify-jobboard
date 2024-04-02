@@ -17,6 +17,9 @@
       },
       "storage": {
         "s3amplifyjobboardstorage55c0fec5": {}
+      },
+      "api": {
+        "AmplifyJobBoard": {}
       }
     }
   }
