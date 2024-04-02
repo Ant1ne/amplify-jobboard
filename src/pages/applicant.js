@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Amplify } from "aws-amplify";
 import { withAuthenticator } from "@aws-amplify/ui-react";
 import "@aws-amplify/ui-react/styles.css";
-import awsmobile from "../aws-exports";
+import awsconfig from "../aws-exports";
 import { useRouter } from "next/navigation";
 import { Auth } from "aws-amplify";
 import styles from "../styles/Home.module.css";
@@ -10,7 +10,7 @@ import NavBar from "@/components/NavBar/NavBar";
 import Swal from "sweetalert2";
 import apply from "./api/apply";
 
-Amplify.configure({ ...awsmobile, ssr: true });
+Amplify.configure({ ...awsconfig, ssr: true });
 
 function Applicant({ signOut, user }) {
   const [jobdetails, setJobDetails] = useState();
