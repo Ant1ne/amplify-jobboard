@@ -1,0 +1,5 @@
+{
+  "AppSyncApiName": "AmplifyJobBoard",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false
+}

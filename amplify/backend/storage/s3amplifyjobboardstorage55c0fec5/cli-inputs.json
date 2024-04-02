@@ -1,0 +1,14 @@
+{
+  "resourceName": "s3amplifyjobboardstorage55c0fec5",
+  "bucketName": "amplifyjobboard-storage-55c0fec5",
+  "policyUUID": "9fb63b50",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ]
+}
